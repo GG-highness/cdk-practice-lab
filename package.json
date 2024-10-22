@@ -7,9 +7,9 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc -w",
-    "test": "jest",
-    "cdk": "cdk",
-    "lint": "eslint . --fix"
+    "lint": "eslint . --fix",
+    "test": "vitest",
+    "cdk": "cdk"
   },
   "devDependencies": {
     "@types/node": "22.5.4",
